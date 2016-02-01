@@ -1,0 +1,112 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 880px;
+  margin:0 auto;
+  padding: 0 10px;
+}
+.main-header {
+  margin-bottom: 80px;
+}
+.logo-img {
+  float: left;
+  width: 150px;
+}
+.main-menu {
+  float: left;
+  width: 450px;
+}
+.header-text {
+  float: left;
+  width: 400px;
+}
+.basket {
+  float: right;
+  width: 150px;
+}
+.content-services-order {
+  float: left;
+  margin-right: 80px;
+  width: 240px;
+}
+.content-services-order:last-child {
+  margin-right: 0;
+}
+.content-services {
+  margin-bottom: 166px;
+}
+.content-description-left {
+  float:left;
+  width: 550px;
+}
+.content-description-right {
+  float:right;
+  width: 300px;
+}
+.content-partners {
+  font-size:0;
+  text-align: center;
+}
+.content-partner {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.content-partner:nth-child(2) {
+  margin-right: 120px;
+  margin-left: 120px;
+}
+.main-footer {
+  margin-top: 85px;
+}
+.footer-social {
+  float: left;
+  margin-right: 35px;
+  width: 250px;
+}
+.footer-text {
+  float: right;
+  width: 550px;
+}
+/*Styles for catalog*/
+.header-title {
+  width: 665px;
+  margin: 0 auto;
+}
+.content-selections {
+  float: left;
+  width: 250px;
+}
+.content-templates {
+  float: right;
+  width: 560px;
+}
+.content-sorting {
+  font-size: 14px;
+}
+.links {
+  font-size: 18px;
+}
+.card {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  font-size: 18px;
+  width: 240px;
+}
+.cards {
+  font-size: 0;
+}
+.card:nth-child(2n+2) {
+  margin-right:0;
+}
+.content-sorting li {
+  display: inline-block;
+}
+.links li {
+  display: inline-block;
+}

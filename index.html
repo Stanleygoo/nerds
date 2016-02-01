@@ -10,7 +10,7 @@
 
 <body>
   <header class="main-header">
-    <div class="container">
+    <div class="container clearfix">
       <div class="logo-img">
         <img src="img/logo.png" width="143" height="61" alt="logo nerds">
       </div>
@@ -41,29 +41,29 @@
   </div>
   </header>
   <main class="container">
-    <section class="content-services">
+    <section class="content-services clearfix">
       <div class="content-services-order">
-        <img src="img/web-site/png" width="286" height="164" alt="Web sites">
+        <img src="img/content-pc.jpg" width="286" height="164" alt="Web sites">
         <b class="web-sites">Веб сайты</b>
         <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
         <a class="btn btn-red" href="#">Заказать</a>
       </div>
       <div class="content-services-order">
-        <img src="img/app/png" width="286" height="164" alt="applications">
-        <b applications>Приложения</b>
+        <img src="img/content-app.jpg" width="286" height="164" alt="applications">
+       <b applications>Приложения</b>
         <p>Покорите топ-10 приложений в AppStrore и Google Play</p>
         <a class="btn btn-green" href="#">Заказать</a>
       </div>
       <div class="content-services-order">
-        <img src="img/presentation/png" width="286" height="164" alt="presentation">
+        <img src="img/content-presentation.jpg" width="286" height="164" alt="presentation">
         <b class="presentation">Презентации</b>
         <p>Вы даже не подозреваете, насколько вы изумительны!</p>
         <a class="btn btn-yellow" href="#">Заказать</a>
       </div>
     </section>
-    <div class="content-description">
+    <div class="content-description clearfix">
       <div class="content-description-left">
-        <h1>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
+         <h1>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
         <h2>Выполняем заказы на разработку:</h2>
         <ul>
@@ -80,7 +80,7 @@
       </div>
       <div class="content-description-right">
         <figure class="content-img">
-          <img src="img/logo.png" width="143" height="61" alt="Logotype">
+          <img src="img/content-logo.png" width="143" height="61" alt="Logotype">
         </figure>
         <h2>Как мы работаем:</h2>
         <ul>
@@ -95,12 +95,12 @@
           </li>
         </ul>
       </div>
-      <div class="content-partners">
-        <a href="#"><img src="img/glukhanko.png" width="180" height="10" alt="Logotype"></a>
-        <a href="#"><img src="img/html-academy.png" width="180" height="10" alt="Logotype"></a>
-        <a href="#"><img src="img/borodinski.png" width="180" height="10" alt="Logotype"></a>
-      </div>
     </div>
+    <div class="content-partners">   <!--inline block -->
+       <a class="content-partner" href="#"><img src="img/content-glukhanko.png" width="198" height="37" alt="Logotype"></a>
+       <a class="content-partner" href="#"><img src="img/content-html-academy.png" width="199" height="68" alt="Logotype"></a>
+       <a class="content-partner" href="#"><img src="img/content-borodisnki.png" width="209" height="86" alt="Logotype"></a>
+     </div>
   </main>
   <div class="map">
     <!-- Тут когда-то будет карта -->
@@ -114,14 +114,16 @@
     </div>
   </div>
   <footer class="main-footer">
-    <div class="footer-social">
-      <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-      <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-      <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-    </div>
-    <div class="footer-text">
-      <h2>Давайте дружить, это выгодно!</h2>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
+    <div class="container clearfix">
+      <div class="footer-social">
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </div>
+      <div class="footer-text">
+        <h2>Давайте дружить, это выгодно!</h2>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
     </div>
   </footer>
 </body>

@@ -10,7 +10,7 @@
 
 <body>
   <header class="main-header">
-    <div class="container">
+    <div class="container clearfix">
       <div class="logo-img">
         <a href="index.html"><img src="img/logo.png" width="143" height="61" alt="logo nerds"></a>
       </div>
@@ -33,10 +33,10 @@
       <div class="basket">
         <a href="#">Корзина</a>
       </div>
-      <h1>Добро пожаловать в магазин готовых макетов</h1>
     </div>
+    <h1 class="header-title">Добро пожаловать в магазин готовых макетов</h1>
   </header>
-  <main class="conteiner">
+  <main class="container clearfix">
     <div class="content-selections">
       <form action="#" method="post">
         <div class="price-controls">
@@ -66,21 +66,21 @@
         <button class="btn" type="submit">Показать</button>
       </form>
     </div>
-    <div class=content-templates>
-      <p>Сортировать:</p>
-      <ul class="content-sorting">
+    <div class="content-templates">
+      <ul class="content-sorting clearfix">
+        <!-- каждому элементу нужно задать float-left -->
+        <li>  Сортировать:</li>
         <li><a href="#">По цене</a></li>
         <li><a href="#">По типу</a></li>
         <li><a href="#">По функционалу</a></li>
-        <li>
+         <li> <!--стрелочки float right -->
           <a href="#" clas="arrow-up"></a>
         </li>
         <li>
           <a href="#" class="arrow-down"></a>
         </li>
       </ul>
-    </div>
-    <div class="content-templates">
+      <div class="cards">
       <article class="card">
         <ul class="browser">
           <li></li>
@@ -92,7 +92,7 @@
         </div>
         <div class="card-hidden">
           <p class="card-title">Aviator</p>
-          <p>Одностраничный макет с авторским дизайном</p>
+          <p class="card-p">Одностраничный макет с авторским дизайном</p>
           <a href="btn btn-red">8000 Р.</a>
         </div>
       </article>
@@ -107,7 +107,7 @@
         </div>
         <div class="card-hidden">
           <p class="card-title">Sunset</p>
-          <p>Интернет-магазин с личным кабинетом</p>
+          <p class="card-p">Интернет-магазин с личным кабинетом</p>
           <a href="btn btn-red">10000 Р.</a>
         </div>
       </article>
@@ -171,15 +171,17 @@
           <a href="btn btn-red">14000 Р.</a>
         </div>
       </article>
+      </div>
+      <div class="links">
+          <!-- Это простой блок , а каждый элемент это инлайн-блок -->
+        <ul>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">Следующая</a></li>
+        </ul>
+      </div>
     </div>
-    </div>
-    <div class="links">
-      <ul>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">Следующая</a></li>
-      </ul>
     </div>
   </main>
   <div class="map">
@@ -194,7 +196,7 @@
     </div>
   </div>
   <footer class="main-footer">
-    <div class="conteiner">
+    <div class="container">
       <div class="footer-social">
         <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
